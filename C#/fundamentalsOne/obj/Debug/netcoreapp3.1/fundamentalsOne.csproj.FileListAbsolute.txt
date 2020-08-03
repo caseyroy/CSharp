@@ -1,0 +1,13 @@
+C:\CodingDojo\C#\fundamentalsOne\bin\Debug\netcoreapp3.1\fundamentalsOne.exe
+C:\CodingDojo\C#\fundamentalsOne\bin\Debug\netcoreapp3.1\fundamentalsOne.deps.json
+C:\CodingDojo\C#\fundamentalsOne\bin\Debug\netcoreapp3.1\fundamentalsOne.runtimeconfig.json
+C:\CodingDojo\C#\fundamentalsOne\bin\Debug\netcoreapp3.1\fundamentalsOne.runtimeconfig.dev.json
+C:\CodingDojo\C#\fundamentalsOne\bin\Debug\netcoreapp3.1\fundamentalsOne.dll
+C:\CodingDojo\C#\fundamentalsOne\bin\Debug\netcoreapp3.1\fundamentalsOne.pdb
+C:\CodingDojo\C#\fundamentalsOne\obj\Debug\netcoreapp3.1\fundamentalsOne.csprojAssemblyReference.cache
+C:\CodingDojo\C#\fundamentalsOne\obj\Debug\netcoreapp3.1\fundamentalsOne.AssemblyInfoInputs.cache
+C:\CodingDojo\C#\fundamentalsOne\obj\Debug\netcoreapp3.1\fundamentalsOne.AssemblyInfo.cs
+C:\CodingDojo\C#\fundamentalsOne\obj\Debug\netcoreapp3.1\fundamentalsOne.csproj.CoreCompileInputs.cache
+C:\CodingDojo\C#\fundamentalsOne\obj\Debug\netcoreapp3.1\fundamentalsOne.dll
+C:\CodingDojo\C#\fundamentalsOne\obj\Debug\netcoreapp3.1\fundamentalsOne.pdb
+C:\CodingDojo\C#\fundamentalsOne\obj\Debug\netcoreapp3.1\fundamentalsOne.genruntimeconfig.cache

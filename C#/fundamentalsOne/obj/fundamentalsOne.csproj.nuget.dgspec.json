@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CodingDojo\\C#\\FirstCSharp\\FirstCSharp\\FirstCSharp.csproj": {}
+    "C:\\CodingDojo\\C#\\fundamentalsOne\\fundamentalsOne.csproj": {}
   },
   "projects": {
-    "C:\\CodingDojo\\C#\\FirstCSharp\\FirstCSharp\\FirstCSharp.csproj": {
+    "C:\\CodingDojo\\C#\\fundamentalsOne\\fundamentalsOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodingDojo\\C#\\FirstCSharp\\FirstCSharp\\FirstCSharp.csproj",
-        "projectName": "FirstCSharp",
-        "projectPath": "C:\\CodingDojo\\C#\\FirstCSharp\\FirstCSharp\\FirstCSharp.csproj",
+        "projectUniqueName": "C:\\CodingDojo\\C#\\fundamentalsOne\\fundamentalsOne.csproj",
+        "projectName": "fundamentalsOne",
+        "projectPath": "C:\\CodingDojo\\C#\\fundamentalsOne\\fundamentalsOne.csproj",
         "packagesPath": "C:\\Users\\total\\.nuget\\packages\\",
-        "outputPath": "C:\\CodingDojo\\C#\\FirstCSharp\\FirstCSharp\\obj\\",
+        "outputPath": "C:\\CodingDojo\\C#\\fundamentalsOne\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,0 +1,22 @@
+C:\CodingDojo\C#\FirstCSharp>dotnet --version
+3.1.302
+
+C:\CodingDojo\C#\FirstCSharp>mkdir FirstCSharp
+
+C:\CodingDojo\C#\FirstCSharp>cd FirstCSharp
+
+C:\CodingDojo\C#\FirstCSharp\FirstCSharp>dotnet new console
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\CodingDojo\C#\FirstCSharp\FirstCSharp\FirstCSharp.csproj...    
+  Determining projects to restore...
+  Restored C:\CodingDojo\C#\FirstCSharp\FirstCSharp\FirstCSharp.csproj (in 99 ms).
+
+Restore succeeded.
+
+
+C:\CodingDojo\C#\FirstCSharp\FirstCSharp>dotnet run
+Hello World!
+
+C:\CodingDojo\C#\FirstCSharp\FirstCSharp>

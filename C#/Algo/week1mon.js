@@ -11,7 +11,6 @@ class SLNode {
         this.next = null;
     }
 }
-
 // This is the class for our Singly Linked List
 class SLList {
     constructor() {
@@ -26,6 +25,17 @@ class SLList {
         }
         else {
             return false;
+        }
+    }
+    addToBack(value) {
+        if (myList.isEmpty()) {
+            this.head = new SLNode(value);
+        }
+        else {
+            let runner = this.head;
+            while (runner != null) {
+                runner = runner.next;
+            }
         }
     }
 }

@@ -14,6 +14,9 @@ namespace Basic13
             int[] findMaxArray = { 24, 6, 99, 5000, 128, 250 };
             int[] eliminateNegativesArray = { 1, -2, 4, 6, -7, 9, -10 };
             int[] maxMinAvgArray = { 3, 6, 9, 15, 24, 1, 34 };
+
+            OddArray();
+            // System.Console.WriteLine(OddArray());
             // LoopArray(loopTestArray);
             // System.Console.WriteLine(FindMax(findMaxArray));
             // GetAverage(loopTestArray);
@@ -22,7 +25,7 @@ namespace Basic13
             // EliminateNegatives(eliminateNegativesArray);
             // MinMaxAverage(maxMinAvgArray);
             // ShiftValues(loopTestArray);
-            object[] NumToStringResults = NumToString(eliminateNegativesArray);
+            // object[] NumToStringResults = NumToString(eliminateNegativesArray);
 
             Console.WriteLine("Hello World!");
         }
@@ -90,10 +93,14 @@ namespace Basic13
             List<int> newArr = new List<int>();
             for (int i = 1; i <= 255; i++)
             {
-                if (i % 3 == 0)
+                if (i % 2 != 0)
                 {
                     newArr.Add(i);
                 }
+            }
+            foreach (int item in newArr)
+            {
+                System.Console.WriteLine(item);
             }
             return newArr;
         }

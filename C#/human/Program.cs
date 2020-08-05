@@ -50,6 +50,7 @@ namespace human
             int dmg = (int)(10 * Strength);
             target.health -= dmg;
             System.Console.WriteLine($"{Name} attacks {target.Name} for {dmg} points of damage!");
+            return target.health;
         }
     }
 

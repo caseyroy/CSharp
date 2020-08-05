@@ -1,0 +1,13 @@
+C:\CodingDojo\C#\memory\bin\Debug\netcoreapp3.1\memory.exe
+C:\CodingDojo\C#\memory\bin\Debug\netcoreapp3.1\memory.deps.json
+C:\CodingDojo\C#\memory\bin\Debug\netcoreapp3.1\memory.runtimeconfig.json
+C:\CodingDojo\C#\memory\bin\Debug\netcoreapp3.1\memory.runtimeconfig.dev.json
+C:\CodingDojo\C#\memory\bin\Debug\netcoreapp3.1\memory.dll
+C:\CodingDojo\C#\memory\bin\Debug\netcoreapp3.1\memory.pdb
+C:\CodingDojo\C#\memory\obj\Debug\netcoreapp3.1\memory.csprojAssemblyReference.cache
+C:\CodingDojo\C#\memory\obj\Debug\netcoreapp3.1\memory.AssemblyInfoInputs.cache
+C:\CodingDojo\C#\memory\obj\Debug\netcoreapp3.1\memory.AssemblyInfo.cs
+C:\CodingDojo\C#\memory\obj\Debug\netcoreapp3.1\memory.csproj.CoreCompileInputs.cache
+C:\CodingDojo\C#\memory\obj\Debug\netcoreapp3.1\memory.dll
+C:\CodingDojo\C#\memory\obj\Debug\netcoreapp3.1\memory.pdb
+C:\CodingDojo\C#\memory\obj\Debug\netcoreapp3.1\memory.genruntimeconfig.cache

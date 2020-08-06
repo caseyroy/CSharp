@@ -53,13 +53,25 @@ class SLList {
         return this;
     }
 
-    // Here's a gimme: This will print the contents of a singly linked list.
+    // Write a method for our singly linked list class that will take a value, and
+    // add a new node to the front of the current singly linked list.
+    addToFront(value) {
+        if (myList.isEmpty()) {
+            this.head = new SLNode(value);
+        }
+        else {
+            let temp = this.head;
+            let myNode = new SLNode(value);
+            this.head = myNode;
+            myNode.next = temp;
+        }
+        return this;
+    }
     printList() {
         if (this.isEmpty()) {
             console.log("This list is empty");
             return this;
         }
-
         // We need to initialize an empty string
         let toPrint = "";
         // And start a runner at the head of the list.
@@ -82,4 +94,7 @@ class SLList {
 
         return this;
     }
+
 }
+
+// Here's a gimme: This will print the contents of a singly linked list.

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace PortfolioOne
+namespace RazorFun
 {
     public class Startup
     {
@@ -26,8 +26,6 @@ namespace PortfolioOne
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseStaticFiles();
             app.UseMvc();
             app.UseRouting();
 

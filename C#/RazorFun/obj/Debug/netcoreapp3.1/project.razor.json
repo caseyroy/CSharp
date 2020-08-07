@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\CodingDojo\\C#\\PortfolioOne\\PortfolioOne.csproj",
+  "FilePath": "c:\\CodingDojo\\C#\\RazorFun\\RazorFun.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20518,21 +20518,11 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "PortfolioOne",
+  "RootNamespace": "RazorFun",
   "Documents": [
     {
-      "FilePath": "c:\\CodingDojo\\C#\\PortfolioOne\\Views\\Home\\index.cshtml",
+      "FilePath": "c:\\CodingDojo\\C#\\RazorFun\\Views\\Home\\index.cshtml",
       "TargetPath": "Views\\Home\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CodingDojo\\C#\\PortfolioOne\\Views\\Home\\projects.cshtml",
-      "TargetPath": "Views\\Home\\projects.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CodingDojo\\C#\\PortfolioOne\\Views\\Home\\contact.cshtml",
-      "TargetPath": "Views\\Home\\contact.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,0 +1,27 @@
+*{
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+
+}
+#navbar {
+    text-align: center;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+#photo, #bio{
+    display: inline-block;
+}
+.project{
+    text-align: center;
+    margin: 20px 0px;
+}
+img h3  {
+    display: inline-block;
+}
+form {
+    text-align: center;
+}

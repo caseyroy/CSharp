@@ -1,0 +1,29 @@
+@model string;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password It!</title>
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" media="screen" runat="server" />
+</head>
+<body>
+    
+    <h2>Random passcode (passcode #@ViewBag.counter</h2>
+    <form action="/generate">
+        @{
+            if(!ViewBag.password)
+            {
+                <h1>Click Mr. Button to generate password</h1>
+            }
+            else
+            {
+            <h1>@ViewBag.password</h1>
+            }
+        }
+        <button>Benjamin</button>
+    </form>
+    
+</body>
+</html>

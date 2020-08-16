@@ -1,5 +1,4 @@
 // This is the class for our Singly Linked Node
-// This is the class for our Singly Linked Node
 class SLNode {
     // The constructor is built to take 1 parameter; the value of the node we want
     // to create
@@ -357,11 +356,39 @@ class SLList {
 
     // HINT: Three runners
     reverse() {
+        let behind = this.head;
+        let inFront = this.head;
+        let runner = this.head;
+        while (runner.next != null) {
+            inFront = runner.next;
+            behind =
+                runner = runner.next;
+        }
 
     }
+    // Write a method that will reverse a singly linked list.
 
-
+    // HINT: Three runners
+    reverse() {
+        let runner = this.head;
+        let front = runner.next;
+        let back = null;
+        if (this.isEmpty()) {
+            console.log("List is empty.");
+            return this;
+        }
+        while (runner.next != null) {
+            runner.next = back;
+            back = runner;
+            runner = front;
+            front = runner.next;
+        }
+        runner.next = back;
+        this.head = runner;
+        return this;
+    }
     // Here's a gimme: This will print the contents of a singly linked list.
+
     printList() {
         if (this.isEmpty()) {
             console.log("This list is empty");
@@ -391,3 +418,12 @@ class SLList {
         return this;
     }
 }
+
+var newList = new SLList();
+newList.addToBack(1).addToBack(3).addToBack(5).addToBack(7).addToBack(9);
+newList.printList();
+newList.reverse();
+newList.printList();
+
+
+

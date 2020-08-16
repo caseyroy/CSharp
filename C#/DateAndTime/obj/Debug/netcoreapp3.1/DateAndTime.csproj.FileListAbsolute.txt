@@ -18,3 +18,14 @@ C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\staticwebassets\DateAndTime
 C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.dll
 C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.pdb
 C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.genruntimeconfig.cache
+C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.RazorAssemblyInfo.cache
+C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.RazorAssemblyInfo.cs
+C:\CodingDojo\C#\DateAndTime\bin\Debug\netcoreapp3.1\DateAndTime.Views.dll
+C:\CodingDojo\C#\DateAndTime\bin\Debug\netcoreapp3.1\DateAndTime.Views.pdb
+C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.TagHelpers.input.cache
+C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.TagHelpers.output.cache
+C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.RazorCoreGenerate.cache
+C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\Razor\Views\DateAndTime\index.cshtml.g.cs
+C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.RazorTargetAssemblyInfo.cs
+C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.Views.pdb
+C:\CodingDojo\C#\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.csproj.CopyComplete

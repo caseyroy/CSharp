@@ -1,3 +1,4 @@
+@model FormSub.Models.User;
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,16 +9,16 @@
 </head>
 <body>
     <div id="formbox">
-        <form action="results" method="post">
+        <form action="/results" method="post">
             <label for="name">
                 Name:
             </label>
-            <input class="inputs"type="text" name="name" id="name">
+            <input class="inputs" type="text" name="Name" id="name">
             <br>
             <label for="dojo">
                 Dojo Location:
             </label>
-            <select class="inputs" name="dojo" id="dojo">
+            <select class="inputs" name="Dojo" id="dojo">
                 <option value="San Jose">San Jose</option>
                 <option value="Los Angeles">Los Angeles</option>
                 <option value="Seattle">Seattle</option>
@@ -26,7 +27,7 @@
             <label for="language">
                 Favorite Language
             </label>
-            <select class="inputs" name="language" id="language">
+            <select class="inputs" name="Language" id="language">
                 <option value="C#">C#</option>
                 <option value="Python">Python</option>
                 <option value="MERN">MERN</option>
@@ -36,7 +37,7 @@
                 Comment (optional):
             </label>
             <br>
-            <textarea name="comment" id="comment" cols="50" rows="3"></textarea>
+            <textarea name="Comment" id="comment" cols="50" rows="3"></textarea>
             <br>
             <button type="submit">Submit</button>
         </form>

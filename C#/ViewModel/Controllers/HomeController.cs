@@ -59,10 +59,6 @@ namespace ViewModel.Controllers
             };
             List<User> myList = new List<User>
             {jin, shimura, khan, ishikawa};
-            // string[] users = new string[]
-            // {
-            //     "Jin Sakai", "Lord Shimura", "Yuna", "Sensei Ishikawa", "Nobu(you will not be forgotten)"
-            // };
             return View("users", myList);
         }
     };

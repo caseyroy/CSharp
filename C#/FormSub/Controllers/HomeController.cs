@@ -3,6 +3,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using FormSub.Models;
 
 
 namespace FormSub.Controllers
@@ -15,13 +16,9 @@ namespace FormSub.Controllers
             return View("index");
         }
         [HttpPost("results")]
-        public IActionResult Results(string name, string dojo, string language, string comment)
+        public IActionResult Results(User newUser)
         {
-            ViewBag.name = name;
-            ViewBag.dojo = dojo;
-            ViewBag.language = language;
-            ViewBag.comment = comment;
-            return View("results");
+            return View("results", newUser);
         }
 
     }

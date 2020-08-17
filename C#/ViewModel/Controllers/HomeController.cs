@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.StaticFiles;
 using ViewModel.Models;
@@ -32,10 +33,37 @@ namespace ViewModel.Controllers
             };
             return View("user", someUser);
         }
-        // public IActionResult NameList()
-        // {
-        //     List<KeyValuePair<string, string>> namelist = new List<KeyValuePair<string, string>>()
-        //     namelist.
-        // }
+        [HttpGet("users")]
+
+        public IActionResult Users()
+        {
+            User jin = new User()
+            {
+                FirstName = "Jin",
+                LastName = "Sakai"
+            };
+            User shimura = new User()
+            {
+                FirstName = "Lord",
+                LastName = "Shimura"
+            };
+            User khan = new User()
+            {
+                FirstName = "Kotun",
+                LastName = "Khan"
+            };
+            User ishikawa = new User()
+            {
+                FirstName = "Sensei",
+                LastName = "Ishikawa"
+            };
+            List<User> myList = new List<User>
+            {jin, shimura, khan, ishikawa};
+            // string[] users = new string[]
+            // {
+            //     "Jin Sakai", "Lord Shimura", "Yuna", "Sensei Ishikawa", "Nobu(you will not be forgotten)"
+            // };
+            return View("users", myList);
+        }
     };
 }

@@ -1,0 +1,36 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+
+}
+#formbox {
+    border: 1px white solid;
+    width: fit-content;
+    padding: 20px;
+}
+#comment
+{
+    resize: none;
+}
+.infodivs
+{
+    display: inline-block;
+}
+button
+{
+    margin-top: 50px;
+    margin-left: 335px;
+}
+h3
+{
+    text-decoration-line: underline;
+    margin: 10px 0px;
+}
+label{
+    margin-right: 168px;
+}
+h4
+{
+    margin-right: 50px;
+}
+

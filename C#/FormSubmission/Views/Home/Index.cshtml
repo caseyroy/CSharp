@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div>
         <h3>Enter Your Information</h3>
-        <form asp-action="Register" asp-controller="Home" method="post">
+        <form asp-action="register" asp-controller="Home" method="post">
             <span asp-validation-for="FirstName"></span>
             <label asp-for="FirstName">First Name</label>
             <input type="text" asp-for="FirstName" id="FirstName">

@@ -27,7 +27,7 @@ namespace FormSubmission
         {
             services.AddSession();
             services.AddControllersWithViews();
-            services.AddDbContext<MyContext>(options => options.UseMySql(Configuration["DbInfo:ConnectionString"]));
+            // services.AddDbContext<MyContext>(options => options.UseMySql(Configuration["DbInfo:ConnectionString"]));
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 

@@ -11,19 +11,13 @@ namespace FormSubmission.Controllers
 {
     public class HomeController : Controller
     {
-        private MyContext _context;
-
-        public HomeController(MyContext context)
-        {
-            _context = context;
-        }
         [HttpGet("")]
         public IActionResult Index()
         {
             return View("Index");
         }
         [HttpPost("register")]
-        public IActionResult Register()
+        public IActionResult Register(User FromForm)
         {
             if (ModelState.IsValid)
             {
@@ -34,6 +28,7 @@ namespace FormSubmission.Controllers
                 return View("Index");
             }
         }
+        [HttpGet("success")]
         public IActionResult Success()
         {
             return View("Success");

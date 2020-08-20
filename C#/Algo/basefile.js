@@ -1,5 +1,4 @@
 // This is the class for our Singly Linked Node
-// This is the class for our Singly Linked Node
 class SLNode {
     // The constructor is built to take 1 parameter; the value of the node we want
     // to create
@@ -357,9 +356,87 @@ class SLList {
 
     // HINT: Three runners
     reverse() {
+        if (this.isEmpty()) {
+            console.log("No list to reverse.");
+            return this;
+        }
+        else if (this.head.next == null) {
+            return this;
+        }
+        else {
+            let previous = null;
+            let runner = this.head;
+            let next = runner.next;
+
+            while (runner.next != null) {
+                runner.next = previous;
+                previous = runner;
+                runner = next;
+                next = runner.next;
+            }
+
+            runner.next = previous;
+            this.head = runner;
+            return this;
+        }
+    }
+
+    // Write a method that will determine whether there is a loop in our
+    // linked list.
+    hasLoop() {
+        if (this.isEmpty() || this.head.next == null) {
+            return false;
+        }
+        let walker = this.head;
+        let runner = this.head.next;
+        while (runner != null && runner.next != null) {
+            if (walker == runner) {
+                return true;
+            }
+            walker = walker.next;
+            runner = runner.next.next;
+        }
+        return false;
+    }
+
+
+    // This one is likely going to be the toughest algo of the stack.
+    // Write a method that will break a loop in a linked list.
+    // You may need to add some extra parameters to this method.
+
+    // This is meant to be a much greater challenge! Please do not just
+    // look it up! I'd rather you try and fail than just look up the answer
+    breakLoop() {
 
     }
 
+
+    // Write a method that will remove duplicates from a linked list
+    removeDupes() {
+        if (this.isEmpty()) {
+            console.log("This list is empty");
+            return this;
+        }
+        let checkArr = [];
+        let runner = this.head;
+        let sprinter = this.head.next.next;
+        while (runner.next != null) {
+            if (checkArr.contains(runner.value)) {
+                runnter.next = sprinter;
+                sprinter = sprinter.next.next;
+                runner = runner.next;
+            }
+            else {
+                checkArr.push(runner.value);
+                runner = runner.next;
+                sprinter = sprinter.next;
+            }
+            if (sprinter == null || sprinter.next == null) {
+                return this;
+            }
+        }
+        return this;
+    }
 
     // Here's a gimme: This will print the contents of a singly linked list.
     printList() {
@@ -391,3 +468,8 @@ class SLList {
         return this;
     }
 }
+
+
+let myList = new SLList();
+myList.addToBack(1).addToBack(2).addToBack(3).addToBack(4).addToBack(5).addToBack(5).addToBack(1);
+printList(myList);

@@ -351,21 +351,6 @@ class SLList {
 
         return this;
     }
-
-    // Write a method that will reverse a singly linked list.
-
-    // HINT: Three runners
-    reverse() {
-        let behind = this.head;
-        let inFront = this.head;
-        let runner = this.head;
-        while (runner.next != null) {
-            inFront = runner.next;
-            behind =
-                runner = runner.next;
-        }
-
-    }
     // Write a method that will reverse a singly linked list.
 
     // HINT: Three runners
@@ -385,6 +370,30 @@ class SLList {
         }
         runner.next = back;
         this.head = runner;
+        return this;
+    }
+
+    // Write a method that will remove duplicates from a linked list
+    removeDupes() {
+        if (this.isEmpty()) {
+            console.log("This list is empty");
+            return this;
+        }
+        let checkArr = [];
+        let runner = this.head;
+        let sprinter = this.head.next;
+        checkArr.push(runner.value);
+        while (runner.next != null) {
+            if (checkArr.includes(sprinter.value)) {
+                runner.next = sprinter.next;
+                sprinter = sprinter.next;
+            }
+            else {
+                checkArr.push(sprinter.value);
+                runner = runner.next;
+                sprinter = sprinter.next;
+            }
+        }
         return this;
     }
     // Here's a gimme: This will print the contents of a singly linked list.
@@ -420,9 +429,9 @@ class SLList {
 }
 
 var newList = new SLList();
-newList.addToBack(1).addToBack(3).addToBack(5).addToBack(7).addToBack(9);
+newList.addToBack(1).addToBack(3).addToBack(5).addToBack(7).addToBack(9).addToBack(7).addToBack(3);
 newList.printList();
-newList.reverse();
+newList.removeDupes();
 newList.printList();
 
 

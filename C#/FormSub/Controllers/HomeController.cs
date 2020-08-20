@@ -18,7 +18,14 @@ namespace FormSub.Controllers
         [HttpPost("results")]
         public IActionResult Results(User newUser)
         {
-            return View("results", newUser);
+            if (ModelState.IsValid)
+            {
+                return View("results", newUser);
+            }
+            else
+            {
+                return View("index");
+            }
         }
 
     }

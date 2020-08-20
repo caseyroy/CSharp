@@ -9,35 +9,40 @@
 </head>
 <body>
     <div id="formbox">
-        <form action="/results" method="post">
-            <label for="name">
+        <form asp-action="results" method="post">
+            <label asp-for="Name">
                 Name:
             </label>
-            <input class="inputs" type="text" name="Name" id="name">
+            <input class="inputs" type="text" asp-for="Name" id="name">
             <br>
-            <label for="dojo">
+            <label asp-for="Dojo">
                 Dojo Location:
             </label>
-            <select class="inputs" name="Dojo" id="dojo">
+            <select class="inputs" asp-for="Dojo" id="dojo">
                 <option value="San Jose">San Jose</option>
                 <option value="Los Angeles">Los Angeles</option>
                 <option value="Seattle">Seattle</option>
             </select>
             <br>
-            <label for="language">
+            <label asp-for="Language">
                 Favorite Language
             </label>
-            <select class="inputs" name="Language" id="language">
+            <select class="inputs" asp-for="Language" id="language">
                 <option value="C#">C#</option>
                 <option value="Python">Python</option>
                 <option value="MERN">MERN</option>
             </select>
             <br>
-            <label for="comment">
+            <label asp-for="Comment">
                 Comment (optional):
             </label>
             <br>
             <textarea name="Comment" id="comment" cols="50" rows="3"></textarea>
+            <br>
+            <span asp-validation-for="Name"></span>
+            <span asp-validation-for="Dojo"></span>
+            <span asp-validation-for="Language"></span>
+            <span asp-validation-for="Comment"></span>
             <br>
             <button type="submit">Submit</button>
         </form>

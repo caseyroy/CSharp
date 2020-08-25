@@ -14392,6 +14392,11 @@
   "RootNamespace": "LogReg",
   "Documents": [
     {
+      "FilePath": "c:\\CodingDojo\\C#\\LogReg\\Views\\Home\\Success.cshtml",
+      "TargetPath": "Views\\Home\\Success.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\CodingDojo\\C#\\LogReg\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -14399,6 +14404,11 @@
     {
       "FilePath": "c:\\CodingDojo\\C#\\LogReg\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CodingDojo\\C#\\LogReg\\Views\\Home\\LogPartial.cshtml",
+      "TargetPath": "Views\\Home\\LogPartial.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14422,8 +14432,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\CodingDojo\\C#\\LogReg\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\CodingDojo\\C#\\LogReg\\Views\\Home\\RegPartial.cshtml",
+      "TargetPath": "Views\\Home\\RegPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
